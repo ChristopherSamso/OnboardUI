@@ -8,16 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("showOnboard") var showOnboard: Bool = true
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack {
+                Text("You are in the main app now!")
+                    .padding()
+            }
+            .padding()
+            .navigationTitle("Home")
         }
-        .padding()
+        .fullScreenCover(isPresented: $showOnboard) {
+            OnboardingView(showOnboard: $showOnboard)
+                .background(Color(.systemGray5))
+        }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

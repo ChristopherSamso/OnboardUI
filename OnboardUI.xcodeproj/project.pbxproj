@@ -14,6 +14,7 @@
 		78737D8C2906FC83008061F0 /* OnboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78737D8B2906FC83008061F0 /* OnboardUITests.swift */; };
 		78737D962906FC83008061F0 /* OnboardUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78737D952906FC83008061F0 /* OnboardUIUITests.swift */; };
 		78737D982906FC83008061F0 /* OnboardUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78737D972906FC83008061F0 /* OnboardUIUITestsLaunchTests.swift */; };
+		78737DA529070310008061F0 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78737DA429070310008061F0 /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		78737D912906FC83008061F0 /* OnboardUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78737D952906FC83008061F0 /* OnboardUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardUIUITests.swift; sourceTree = "<group>"; };
 		78737D972906FC83008061F0 /* OnboardUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78737DA429070310008061F0 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		78737D792906FC82008061F0 /* OnboardUI */ = {
 			isa = PBXGroup;
 			children = (
+				78737DA429070310008061F0 /* Onboarding.swift */,
 				78737D7A2906FC82008061F0 /* OnboardUIApp.swift */,
 				78737D7C2906FC82008061F0 /* ContentView.swift */,
 				78737D7E2906FC83008061F0 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78737DA529070310008061F0 /* Onboarding.swift in Sources */,
 				78737D7D2906FC82008061F0 /* ContentView.swift in Sources */,
 				78737D7B2906FC82008061F0 /* OnboardUIApp.swift in Sources */,
 			);

@@ -10,18 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @AppStorage("showOnboard") var showOnboard: Bool = true
     var body: some View {
-        NavigationStack{
-            VStack {
-                Text("You are in the main app now!")
-                    .padding()
-            }
-            .padding()
-            .navigationTitle("Home")
-        }
-        .fullScreenCover(isPresented: $showOnboard) {
-            OnboardingView(showOnboard: $showOnboard)
-                .background(Color(.systemGray5))
-        }
+      MapView(showOnboard: $showOnboard)
     }
 }
 

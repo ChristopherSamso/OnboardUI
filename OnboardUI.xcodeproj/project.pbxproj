@@ -15,6 +15,8 @@
 		78737D962906FC83008061F0 /* OnboardUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78737D952906FC83008061F0 /* OnboardUIUITests.swift */; };
 		78737D982906FC83008061F0 /* OnboardUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78737D972906FC83008061F0 /* OnboardUIUITestsLaunchTests.swift */; };
 		78737DA529070310008061F0 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78737DA429070310008061F0 /* Onboarding.swift */; };
+		78737DE029070FF6008061F0 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78737DDF29070FF6008061F0 /* MapViewModel.swift */; };
+		78737DE2290713B7008061F0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78737DE1290713B7008061F0 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		78737D952906FC83008061F0 /* OnboardUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardUIUITests.swift; sourceTree = "<group>"; };
 		78737D972906FC83008061F0 /* OnboardUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78737DA429070310008061F0 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		78737DDF29070FF6008061F0 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		78737DE1290713B7008061F0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		78737D792906FC82008061F0 /* OnboardUI */ = {
 			isa = PBXGroup;
 			children = (
+				78737DDF29070FF6008061F0 /* MapViewModel.swift */,
+				78737DE1290713B7008061F0 /* MapView.swift */,
 				78737DA429070310008061F0 /* Onboarding.swift */,
 				78737D7A2906FC82008061F0 /* OnboardUIApp.swift */,
 				78737D7C2906FC82008061F0 /* ContentView.swift */,
@@ -262,7 +268,9 @@
 			files = (
 				78737DA529070310008061F0 /* Onboarding.swift in Sources */,
 				78737D7D2906FC82008061F0 /* ContentView.swift in Sources */,
+				78737DE2290713B7008061F0 /* MapView.swift in Sources */,
 				78737D7B2906FC82008061F0 /* OnboardUIApp.swift in Sources */,
+				78737DE029070FF6008061F0 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +432,7 @@
 				DEVELOPMENT_TEAM = ANT9H9LV94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Get user location for application. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -453,6 +462,7 @@
 				DEVELOPMENT_TEAM = ANT9H9LV94;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Get user location for application. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

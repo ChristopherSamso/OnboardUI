@@ -14,9 +14,9 @@ struct OnboardingView: View {
         TabView {
             PageView(title: "Push Notifications", subtitle: "Enable notifications to stay up to date with friends.", imageName: "bell", showDismiss: false, showOnboard: $showOnboard)
             
-            PageView(title: "Bookmarks", subtitle: "Save your favorite pieces of content", imageName: "bookmark", showDismiss: false, showOnboard: $showOnboard)
+            PageView(title: "Bookmarks", subtitle: "Save your favorite adventure destinations", imageName: "bookmark", showDismiss: false, showOnboard: $showOnboard)
             
-            PageView(title: "Flights", subtitle: "Book flights with ease.", imageName: "airplane", showDismiss: false, showOnboard: $showOnboard)
+            PageView(title: "Adventure", subtitle: "Have the confidence to travel to remote locations knowing exactly where you'll be at all times", imageName: "mappin.and.ellipse", showDismiss: false, showOnboard: $showOnboard)
             
             PageView(title: "Home", subtitle: "Go home wherever you might be", imageName: "house", showDismiss: true, showOnboard: $showOnboard)
         }
